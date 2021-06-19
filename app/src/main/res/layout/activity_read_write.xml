@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="please input title"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTitle"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="please input content"
+        android:layout_height="300dp"
+        android:id="@+id/etReadWrite"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btClear"
+            android:layout_margin="5dp"
+            android:text="Clear"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btSave"
+            android:layout_margin="5dp"
+            android:text="Save"></Button>
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/pre_btn"
+            android:layout_width="wrap_content"
+            android:text="上一个"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="wrap_content"
+            android:text="下一个"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
